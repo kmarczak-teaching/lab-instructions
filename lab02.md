@@ -1,5 +1,15 @@
 ### Praca ze zdalnym repozytorium
 Do wykonania dzisiejszych ćwiczeń konieczne jest załozenie konta na platformie GitHub. Proszę w miarę mozliwości o wybranie loginu wskazującego na tozsamość właściciela lub dodanie takiej informacji w opisie profilu, jeśli pracujemy na załozonym wcześniej koncie. Po załozeniu konta, proszę o przesłanie pustego maila na adres katarzyna.marczak@uken.krakow.pl z tytułem: `<login> <nazwisko> <imię> <grupa>`
+
+### Lokalna kofiguracja gita
+Na początek dzisiejszych laboratoriów proszę wykonać następujące komendy kofigurujące git w konsoli:
+```bash
+git config --global init.defaultBranch main
+git config --global user.email "you@example.com"
+git config --global user.name "username"
+```
+Najlepiej na koniec ćwiczeń usunąć swój email i username tak (ponownie wykonać `config` usuwając email i name), aby osoba pracująca na tym samym komputerze w następnej grupie nie wykonywała commitów podpisując się jako inny użytkownik.
+
 ### Klonowanie istniejącego repozytorium
 1. Pobrać zawartość repozytorium https://github.com/kmarczak-uni/TDO-lab1-webpage za pomocą komendy `git clone`. Rozpakować folder, przejść do niego i wywołać komendę `git status`, `git log --oneline` oraz `git remote -v` i przyjrzeć się wynikowi ich działania. Sprawdzić, na czym polega róznica względem ściągnięcia kodu za pomocą opcji `Download .ZIP`. 
 2. Stworzyć na GitHubie na swoim profilu nowe, puste repozytorium `tdo-lab-1` (nie korzystać z opcji dodania README, .gitignore, licencji itd.)  
