@@ -210,6 +210,8 @@ docker run mypyapp
 
 # Zadania
 
+Po wykonaniu obydwu zadań proszę przesłać pliki `Dockerfile` w mailu (może być bez treści) o tytule: <nr_grupy> Technologie Devops Lab3 Dockerfile.
+
 ## Zadanie 1
 Na podstawie przykładu z `linux-tweet-app`, stwórz podobny `Dockerfile` dla plików w repozytorium https://github.com/kmarczak-uni/TDO-lab1-webpage i uruchom kontener tak, aby mozna ją było otworzyć w przeglądarce tak jak w sekcji "Budowanie kontenera z gotowego Dockerfile".
 
