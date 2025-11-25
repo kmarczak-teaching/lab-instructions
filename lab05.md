@@ -171,4 +171,11 @@ Zwróć szczególną uwagę na:
 
 # Zadanie domowe 
 
-Zapoznaj się z przykładem i uruchom [usługę Prometheus i Grafana](https://github.com/docker/awesome-compose/tree/master/prometheus-grafana). Zwróć uwagę na nowe elementy w pliku `compose`, m.in. sposób definicji `volume`. Poszukaj informacji, jak mozna poprawić plik `compose` tak, aby uzytkownik i hasło do Grafany nie były podane w nim wprost.
+Zapoznaj się z przykładem i uruchom [usługę Prometheus i Grafana](https://github.com/docker/awesome-compose/tree/master/prometheus-grafana). Zwróć uwagę na nowe elementy w pliku `compose`, m.in. sposób definicji `volume`. Poszukaj informacji, jak mozna poprawić plik `compose` tak, aby uzytkownik i hasło do Grafany nie były podane w nim wprost.  
+Wskazówka: można uniknąć czasochłonnego kopiowania całego repozytorium, ograniczając się tylko do pobraniajednego potrzebnego folderu w następujący sposób:
+```bash
+git clone --filter=blob:none --sparse https://github.com/docker/awesome-compose.git
+cd awesome-compose
+git sparse-checkout set awesome-compose/prometheus-grafana
+cd prometheus-grafana
+```
