@@ -148,12 +148,14 @@ Do gotowego workflow podanego ponizej dopisz dowolny, prosty skrypt Pythonowy, k
 ```yaml
 name: Just run
 on: workflow_dispatch
+
 jobs:
   run-it:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - name: Run script
+      - uses: actions/checkout@v4
+
+      - name: Run script
         run: python3 script.py
 ```
 
