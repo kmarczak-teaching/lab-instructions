@@ -126,7 +126,7 @@ Jak widać, powyzszy plik uruchamia cztery kontenery. Wyjaśnij rolę kazdego z 
 Uruchom odpowiednią komendą a następnie otwórz w przeglądarce UI Prometheusa i sprawdź, czy zakładka Targets wskazuje, ze monitorowana usługa jest widoczna i dostępna.
 
 2. W polu `Query` wpisz `n` i sprawdź, jakie metryki i jakiego typu są dostępne na liście podpowiedzi. Zapisz, jakimi zapytaniami i z uzyciem których metryk sprawdzisz:
-- czy aplikacja webowa w ogóle działa i jest dostępna
+- czy serwer w ogóle działa i jest dostępny
 - czy serwer proxy obsługiwał jakieś zapytania http w ciągu ostatnich 10 minut
 - ilość obsłuzonych połączeń z klientami oraz średnia liczba tych połączeń w ciągu ostatnich 10 minut (mozna ją zwiększyć otwierając aplikację w innej przeglądarce lub wysyłając zapytanie w nowym oknie konsoli z uzyciem `curl`)
 - liczba klientów oczekujących na odpowiedź (*idle clients*)
