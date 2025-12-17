@@ -1,4 +1,4 @@
-# Monitoring - Prometheus i Grafana
+# Monitoring - Prometheus
 
 ## Monitoring aplikacji - idea
 
