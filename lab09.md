@@ -42,7 +42,7 @@ Nalezy samodzielnie dodać drugi panel z analogiczną metryką `tns_client_reque
 ## Konfiguracja Grafany dla własnej aplikacji
 
 ### Zadanie
-Na podstawie przykładu z laboratorium 5: https://github.com/docker/awesome-compose/tree/master/prometheus-grafana  
+Na podstawie przykładu z laboratorium 5: https://github.com/docker/awesome-compose/tree/master/prometheus-grafana oraz startowego repozytorium https://github.com/kmarczak-teaching/lab9-prom-grafana-starter   
 dodaj do rozwiązania zadania z poprzednich ćwiczeń (aplikacja Pythonowa + Ngnx serwer + Prometheus) usługę Grafany. Po skutecznym uruchomieniu całego projektu z `docker compose` stwórz jeden dashboard w Grafanie, zawierający 2-3 panele z wizualizacjami zapytań napisanych w ramach tamtego zadania. **Wykorzystaj w dashboardzie róźne rodzaje wizualizacji, nie tylko *time series***, i nadawaj tytuły paneli, które będą wskazywać, co ilustruje dany panel.  
 Następnie dodaj jeszcze do projektu Node exporter (dodatkowe źródło danych do Prometheusa) oraz stwórz w Grafanie drugi, osobny dashboard, który będzie poświęcony wizualizacji zuzycia zasobów systemowych (CPU, pamięć, dysk itd.). Podobnie jak w poprzednim ćwiczeniu, dodaj 2-3 panele wizualizujące zapytania, które pisaliśmy na tamtych ćwiczeniach.  
 Po wykonaniu tych zadań nalezy wysłać na maila zrzut ekranu z tych dwóch dashboardów z tytułem `Devops lab9 rozwiązanie`.
